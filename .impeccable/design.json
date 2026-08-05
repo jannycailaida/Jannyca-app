@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-05",
+  "title": "Design System: Jannyca Ilaida — Programme Bill",
+  "extensions": {
+    "colorMeta": {
+      "ballet-rose": { "role": "primary", "displayName": "Ballet Rose", "canonical": "#d6336c", "tonalRamp": ["oklch(24% 0.07 350)", "oklch(34% 0.11 350)", "oklch(44% 0.15 350)", "oklch(54% 0.17 350)", "oklch(63% 0.17 350)", "oklch(72% 0.14 350)", "oklch(83% 0.08 350)", "oklch(94% 0.03 350)"] },
+      "rose-deep": { "role": "primary", "displayName": "Rose Deep", "canonical": "#9f1444", "tonalRamp": ["oklch(20% 0.05 348)", "oklch(28% 0.08 348)", "oklch(36% 0.11 348)", "oklch(44% 0.13 348)", "oklch(51% 0.14 348)", "oklch(60% 0.12 348)", "oklch(72% 0.08 348)", "oklch(86% 0.03 348)"] },
+      "ivory-paper": { "role": "neutral", "displayName": "Ivory Paper", "canonical": "#fbf0ee", "tonalRamp": ["oklch(30% 0.03 30)", "oklch(42% 0.03 30)", "oklch(54% 0.03 30)", "oklch(66% 0.025 30)", "oklch(76% 0.02 30)", "oklch(86% 0.015 30)", "oklch(93% 0.01 30)", "oklch(98% 0.005 25)"] },
+      "ivory-deep": { "role": "neutral", "displayName": "Ivory Deep", "canonical": "#f5e2e4", "tonalRamp": ["oklch(30% 0.03 12)", "oklch(42% 0.03 12)", "oklch(54% 0.03 12)", "oklch(66% 0.03 12)", "oklch(76% 0.025 12)", "oklch(85% 0.02 12)", "oklch(92% 0.015 12)", "oklch(97% 0.01 10)"] },
+      "blush": { "role": "neutral", "displayName": "Blush Wash", "canonical": "rgba(214, 51, 108, 0.09)", "tonalRamp": ["oklch(30% 0.02 350)", "oklch(42% 0.03 350)", "oklch(54% 0.04 350)", "oklch(66% 0.05 350)", "oklch(76% 0.05 350)", "oklch(86% 0.035 350)", "oklch(94% 0.02 350)", "oklch(98% 0.008 350)"] },
+      "plum-ink": { "role": "neutral", "displayName": "Plum Ink", "canonical": "#25121f", "tonalRamp": ["oklch(16% 0.02 345)", "oklch(24% 0.03 345)", "oklch(33% 0.04 345)", "oklch(43% 0.05 345)", "oklch(53% 0.05 345)", "oklch(64% 0.04 345)", "oklch(76% 0.03 345)", "oklch(89% 0.015 345)"] },
+      "plum-lead": { "role": "neutral", "displayName": "Plum Lead", "canonical": "#3a2433", "tonalRamp": ["oklch(18% 0.02 340)", "oklch(27% 0.03 340)", "oklch(36% 0.04 340)", "oklch(45% 0.045 340)", "oklch(54% 0.045 340)", "oklch(64% 0.035 340)", "oklch(76% 0.025 340)", "oklch(89% 0.01 340)"] },
+      "mauve-muted": { "role": "neutral", "displayName": "Mauve Muted", "canonical": "#6b5563", "tonalRamp": ["oklch(20% 0.015 330)", "oklch(30% 0.02 330)", "oklch(40% 0.025 330)", "oklch(50% 0.03 330)", "oklch(59% 0.03 330)", "oklch(69% 0.02 330)", "oklch(80% 0.015 330)", "oklch(91% 0.008 330)"] },
+      "rose-hairline": { "role": "neutral", "displayName": "Rose Hairline", "canonical": "rgba(159, 20, 68, 0.22)", "tonalRamp": ["oklch(20% 0.04 348)", "oklch(28% 0.06 348)", "oklch(36% 0.08 348)", "oklch(44% 0.09 348)", "oklch(51% 0.09 348)", "oklch(60% 0.08 348)", "oklch(72% 0.05 348)", "oklch(86% 0.02 348)"] },
+      "rose-sheen": { "role": "neutral", "displayName": "Rose Sheen", "canonical": "rgba(255, 255, 255, 0.5)", "tonalRamp": ["oklch(28% 0 0)", "oklch(40% 0 0)", "oklch(52% 0 0)", "oklch(64% 0 0)", "oklch(74% 0 0)", "oklch(83% 0 0)", "oklch(92% 0 0)", "oklch(100% 0 0)"] },
+      "rose-shadow": { "role": "neutral", "displayName": "Rose Shadow", "canonical": "rgba(159, 20, 68, 0.14)", "tonalRamp": ["oklch(20% 0.025 348)", "oklch(28% 0.04 348)", "oklch(36% 0.05 348)", "oklch(44% 0.055 348)", "oklch(51% 0.055 348)", "oklch(60% 0.045 348)", "oklch(72% 0.03 348)", "oklch(86% 0.012 348)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The name, two stacked Bodoni spans with text-wrap balance." },
+      "headline": { "displayName": "Headline", "purpose": "The 'Programme notes' section heading." },
+      "title": { "displayName": "Title", "purpose": "Cast values (dd), right-aligned in the programme list." },
+      "lead": { "displayName": "Lead", "purpose": "The italic line under the name, max 70ch, in Plum Lead." },
+      "body": { "displayName": "Body", "purpose": "The quiet sans base; only the small uppercase programme labels use it." },
+      "label": { "displayName": "Label", "purpose": "dt programme labels, uppercase with wide tracking, in Rose Deep." },
+      "caption": { "displayName": "Caption", "purpose": "The portrait figcaption, italic, max 34ch, in Mauve Muted." },
+      "script": { "displayName": "Script", "purpose": "The single Great Vibes close line. One cameo only." }
+    },
+    "shadows": [
+      { "name": "bill-lift", "value": "0 34px 80px rgba(159, 20, 68, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.5)", "purpose": "The programme sheet floating above the stage." },
+      { "name": "frame-lift", "value": "0 24px 60px rgba(159, 20, 68, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.5)", "purpose": "The portrait arch." },
+      { "name": "bow-halo", "value": "drop-shadow(0 8px 16px rgba(159, 20, 68, 0.18))", "purpose": "The crown bow's soft glow." }
+    ],
+    "motion": [
+      { "name": "ease-expo-out", "value": "cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "The single authored entry easing; every entrance uses it." },
+      { "name": "bill-reveal", "value": "780ms", "purpose": "The bill sheet: rise, settle scale, and blur out." },
+      { "name": "name-rise", "value": "820ms", "purpose": "Each name span: rise and letterspacing settle (delays 120ms / 220ms)." },
+      { "name": "rise", "value": "820ms", "purpose": "Lead (320ms), cast list (420ms), close (620ms): rise with blur-out." },
+      { "name": "photo-reveal", "value": "900ms", "purpose": "The portrait arch at 360ms: rise and scale-in." },
+      { "name": "tie", "value": "640ms", "purpose": "The bows at 700ms / 760ms: drop, scale-overshoot, and settle." },
+      { "name": "reduce-kill-switch", "value": "prefers-reduced-motion: animation none, transition none", "purpose": "The blanket kill switch all new motion must inherit." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "980px" },
+      { "name": "sm", "value": "600px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "The Programme Bill",
+      "kind": "custom",
+      "refersTo": "program-bill",
+      "description": "The single arched sheet the whole page is; never a card grid.",
+      "html": "<article class=\"ds-bill\"><p class=\"ds-bill__sample\">The Programme Bill</p></article>",
+      "css": ".ds-bill { position: relative; width: 320px; padding: 48px 32px; border-radius: 120px 120px 24px 24px; border: 1px solid var(--line, rgba(159,20,68,0.22)); background: linear-gradient(115deg, transparent 40%, var(--sheen, rgba(255,255,255,0.5)) 50%, transparent 60%), radial-gradient(circle at 50% 0%, var(--blush, rgba(214,51,108,0.06)) 0%, transparent 46%), var(--paper, #fbf0ee); box-shadow: 0 34px 80px var(--shadow, rgba(159,20,68,0.14)), inset 0 1px 0 rgba(255,255,255,0.5); } .ds-bill__sample { margin: 0; font-family: 'Bodoni Moda', Georgia, serif; font-size: 1.6rem; font-weight: 600; color: var(--ink, #25121f); }"
+    },
+    {
+      "name": "The Name Mast",
+      "kind": "custom",
+      "refersTo": "name-mast",
+      "description": "The huge Didone name, rose second line, hairline, and italic lead.",
+      "html": "<header class=\"ds-mast\"><h1 class=\"ds-mast__name\"><span>Jannyca</span><span>Ilaida</span></h1><p class=\"ds-mast__lead\">A BSIT student from Trimex.</p></header>",
+      "css": ".ds-mast__name { margin: 0; display: grid; gap: 0.02em; font-family: 'Bodoni Moda', Georgia, serif; font-size: clamp(3.4rem, 10vw, 6rem); font-weight: 600; line-height: 0.88; letter-spacing: -0.02em; text-wrap: balance; color: var(--ink, #25121f); } .ds-mast__name span { display: block; } .ds-mast__name span:last-child { color: var(--rose, #d6336c); padding-left: clamp(0.4em, 6vw, 1.4em); } .ds-mast__name::after { content: ''; display: block; margin-top: clamp(20px, 3vw, 34px); height: 1px; background: var(--line, rgba(159,20,68,0.22)); } .ds-mast__lead { margin: clamp(28px,4vw,44px) 0 0; max-width: 70ch; font-family: 'Bodoni Moda', Georgia, serif; font-style: italic; font-weight: 500; font-size: clamp(1.2rem, 2.2vw, 1.55rem); line-height: 1.5; color: var(--lead, #3a2433); }"
+    },
+    {
+      "name": "The Cast Row",
+      "kind": "custom",
+      "refersTo": "cast-row",
+      "description": "The label/value programme rows, hairline-divided, 120px label column.",
+      "html": "<dl class=\"ds-cast\"><div class=\"ds-cast__row\"><dt>Name</dt><dd>Jannyca Ilaida</dd></div><div class=\"ds-cast__row\"><dt>Program</dt><dd>BSIT</dd></div></dl>",
+      "css": ".ds-cast { margin: 0; display: grid; } .ds-cast__row { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 18px; align-items: baseline; padding: 18px 0; border-top: 1px solid var(--line, rgba(159,20,68,0.22)); } .ds-cast dt { color: var(--rose-deep, #9f1444); font-family: 'Segoe UI', system-ui, sans-serif; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; } .ds-cast dd { margin: 0; font-family: 'Bodoni Moda', Georgia, serif; font-size: 1.35rem; font-weight: 600; color: var(--ink, #25121f); text-align: right; }"
+    },
+    {
+      "name": "The Portrait Arch",
+      "kind": "custom",
+      "refersTo": "portrait-frame",
+      "description": "The 4:5 crown-arch photo slot; a real photograph is pending.",
+      "html": "<figure class=\"ds-frame\"><div class=\"ds-frame__arch\" aria-hidden=\"true\"></div><figcaption class=\"ds-frame__caption\">Waiting for a portrait.</figcaption></figure>",
+      "css": ".ds-frame { width: 240px; display: grid; justify-items: center; gap: 18px; } .ds-frame__arch { width: 100%; aspect-ratio: 4 / 5; border-radius: 200px 200px 26px 26px; border: 1px solid var(--rose, #d6336c); background: linear-gradient(150deg, #fbe3ea, #f3c3d4); box-shadow: 0 24px 60px rgba(159,20,68,0.2), inset 0 1px 0 rgba(255,255,255,0.5); } .ds-frame__caption { margin: 0; max-width: 34ch; font-family: 'Bodoni Moda', Georgia, serif; font-style: italic; font-size: 1.05rem; line-height: 1.6; color: var(--muted, #6b5563); text-align: center; }"
+    },
+    {
+      "name": "The Satin Bow",
+      "kind": "custom",
+      "refersTo": "satin-bow",
+      "description": "The drawn satin bow, currentColor, inherits the ballet rose.",
+      "html": "<svg class=\"ds-bow\" viewBox=\"0 0 64 42\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M32 20 C26 9 12 6 8 14 C5 20 13 26 32 20 Z\"/><path d=\"M32 20 C38 9 52 6 56 14 C59 20 51 26 32 20 Z\"/><rect x=\"29\" y=\"14\" width=\"6\" height=\"13\" rx=\"3\"/><path d=\"M31 26 L18 40\" stroke-width=\"3.2\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M33 26 L46 40\" stroke-width=\"3.2\" stroke-linecap=\"round\" fill=\"none\"/></svg>",
+      "css": ".ds-bow { display: block; width: 74px; height: auto; color: var(--rose, #d6336c); } .ds-bow path, .ds-bow rect { fill: currentColor; } .ds-bow path[stroke-width] { fill: none; stroke: currentColor; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Programme Bill",
+    "overview": "A theatre program printed for one person. The page is one arched sheet of warm ivory program stock, centered in the viewport, that a visitor reads the way they read a playbill: a name first, a lead line, a cast list, a stage photo. It deliberately refuses the 'three card intro grid'; the whole surface is a single bill, so the visitor reads a name, not a dashboard.\n\nThe world is satin and stage light. One committed ballet rose carries the second name line, the hairline rules, the edge of the portrait arch, and a drawn satin bow. Everything else stays on the ivory/plum neutral ground. Type is Didone star voice throughout (Bodoni Moda), with Great Vibes reserved for one small close line. Motion is a single authored entry choreography with exponential ease-out, played once, and annihilated entirely under prefers-reduced-motion. The build is honest about unfinished assets: the arch photo is a labeled placeholder awaiting a real portrait.",
+    "keyCharacteristics": [
+      "One printed sheet, arched at the crown, never a three-card grid.",
+      "One committed ballet rose (#d6336c) carries the second name line, the hairlines, the drawn bows, and the portrait-frame edge.",
+      "Didone star type (Bodoni Moda) is the only show face; Great Vibes appears exactly once, in the small close line.",
+      "Hairline rules only — 1px rose-derived strokes; no heavy borders.",
+      "One-shot entry choreography on a single exponential ease-out, with a full prefers-reduced-motion kill switch.",
+      "Honest alt text and figcaption on the portrait placeholder; a real photograph is still pending."
+    ],
+    "rules": [
+      { "name": "The Single-Rose Rule", "body": "One ballet rose family (rose at #d6336c, depth at #9f1444) is the only hue that may leave the ivory/plum neutral ground. Every wash, hairline, sheen, and shadow is derived from it; a second accent hue breaks the printed-bill illusion.", "section": "colors" },
+      { "name": "The One Cameo Rule", "body": "Great Vibes appears exactly once, as the small close line. Bodoni is the star voice; the script must never grow into a heading or a second line.", "section": "typography" },
+      { "name": "The No-Gradient-Text Rule", "body": "Text is flat ink. Gradients belong to stock and light — washes and sheens — never to letters.", "section": "typography" },
+      { "name": "The No-Em-Dash Rule", "body": "Prose uses commas and full stops; the em-dash is barred from the programme voice.", "section": "typography" },
+      { "name": "The Stage-Light Rule", "body": "Depth is light, not hard offset shadow. All shadows are rose-tinted and diffuse; surfaces separate with hairlines and sheen, never crisp 3D edges.", "section": "elevation" },
+      { "name": "The Arch Rule", "body": "Every principal surface (the bill, the portrait frame) opens with a wide crown arch; only the arch and the bows may carry such generous radii. Interior corners stay small (26–36px).", "section": "shapes" },
+      { "name": "The One-Shot Choreography Rule", "body": "Motion happens once, on entry, and every entrance uses the same exponential ease-out cubic-bezier(0.22, 1, 0.36, 1). After the choreography plays, the page is still — no hover motion, no loops.", "section": "components" },
+      { "name": "The Kill-Switch Rule", "body": "Every animation must be annihilated under prefers-reduced-motion. The page ships a blanket kill switch (animation: none, transition: none); new motion must inherit it.", "section": "components" }
+    ],
+    "dos": [
+      "Do keep the whole page one sheet; the three-card intro grid is barred.",
+      "Do set every rule as a 1px rose hairline (rgba(159, 20, 68, 0.22)); never a solid rose rule or a heavier border.",
+      "Do use the exponential ease-out cubic-bezier(0.22, 1, 0.36, 1) for every entrance.",
+      "Do gate every animation behind the prefers-reduced-motion kill switch.",
+      "Do write honest alt text and captions when an asset is still a placeholder."
+    ],
+    "donts": [
+      "Don't introduce a second accent hue; ballet rose is the only one (The Single-Rose Rule).",
+      "Don't use Great Vibes anywhere but the close line (The One Cameo Rule).",
+      "Don't set gradient text or em-dashes (The No-Gradient-Text Rule, The No-Em-Dash Rule).",
+      "Don't add hover or looping motion; the choreography plays once on entry and the page is then still.",
+      "Don't square off a principal surface; the crown arch is the bill and the portrait frame (The Arch Rule)."
+    ]
+  }
+}

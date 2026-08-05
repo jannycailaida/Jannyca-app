@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 450">
+  <title>Portrait placeholder</title>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#fdeef3"/>
+      <stop offset="1" stop-color="#f3c7d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="450" fill="url(#wash)"/>
+  <g fill="none" stroke="#d6336c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 298 C180 258 180 206 180 170"/>
+    <path d="M180 262 C162 252 150 236 155 218 C176 222 186 246 180 262 Z"/>
+    <path d="M180 228 C199 218 211 200 206 182 C185 187 174 210 180 228 Z"/>
+    <path d="M164 138 C150 136 148 120 160 114 C172 108 180 122 172 132"/>
+    <path d="M196 138 C210 136 212 120 200 114 C188 108 180 122 188 132"/>
+    <path d="M180 122 C180 106 194 106 194 120 C194 132 182 134 180 122 Z"/>
+    <path d="M172 124 C170 108 158 110 160 122 C162 132 174 132 172 124 Z"/>
+    <path d="M188 124 C190 108 202 110 200 122 C198 132 186 132 188 124 Z"/>
+    <path d="M176 122 C178 116 184 116 186 122 C184 128 178 128 176 122 Z" fill="#d6336c" stroke="none"/>
+  </g>
+  <path d="M60 450 V210 C60 132 114 70 180 70 C246 70 300 132 300 210 V450" fill="none" stroke="#d6336c" stroke-width="1.5" opacity="0.35"/>
+</svg>
