@@ -10,11 +10,11 @@
                 <ul class="contact__info">
                     <li>
                         <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-                        <div>jannyca.ilaida@example.com<span>This address is a placeholder until Jannyca shares her real email.</span></div>
+                        <div><a href="mailto:jannycailaida@student.trimexcolleges.edu.ph">jannycailaida@student.trimexcolleges.edu.ph</a></div>
                     </li>
                     <li>
                         <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                        <div>Philippines<span>Her exact location is a placeholder.</span></div>
+                        <div>Sucat, Muntinlupa City</div>
                     </li>
                     <li>
                         <i class="fa-solid fa-clock" aria-hidden="true"></i>
@@ -25,7 +25,7 @@
                 <h3 style="margin-top: 22px;">Find Her Here</h3>
                 <ul class="hero__socials">
                     <li>
-                        <a href="#" data-placeholder-link data-message="GitHub profile coming soon" aria-label="GitHub profile placeholder">
+                        <a href="https://github.com/jannycailaida/" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
                             <i class="fa-brands fa-github" aria-hidden="true"></i>
                         </a>
                     </li>
@@ -35,17 +35,22 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" data-placeholder-link data-message="Facebook profile coming soon" aria-label="Facebook profile placeholder">
+                        <a href="https://www.facebook.com/jannyca.ilaida.50" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile">
                             <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
 
-                <div class="contact__map reveal" style="margin-top: 24px;" role="img"
-                     aria-label="Map placeholder; Jannyca's Google Maps location will be embedded here.">
-                    <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
-                    <p>Map placeholder</p>
-                    <p class="contact__map-note">A Google Maps embed of Jannyca's location will live here.</p>
+                <div class="contact__map reveal" style="margin-top: 24px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2291.3270436172297!2d121.04742167864788!3d14.466695472741948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf007d0035bf%3A0x8c8e821fc4aafb41!2sBlk%208%20Lot%2038%20Linden%20St!5e1!3m2!1sen!2sph!4v1785987013700!5m2!1sen!2sph"
+                        width="100%"
+                        height="260"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        title="Map of Jannyca's location in Sucat, Muntinlupa City">
+                    </iframe>
                 </div>
             </div>
 
