@@ -2,21 +2,21 @@
   <title>Portrait placeholder</title>
   <defs>
     <linearGradient id="wash" x1="0" y1="0" x2="0.55" y2="1">
-      <stop offset="0" stop-color="#fdeef3"/>
-      <stop offset="1" stop-color="#f3c7d6"/>
+      <stop offset="0" stop-color="#f1ecfb"/>
+      <stop offset="1" stop-color="#dcd2f2"/>
     </linearGradient>
   </defs>
   <rect width="360" height="450" fill="url(#wash)"/>
-  <g fill="none" stroke="#d6336c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M180 298 C180 258 180 206 180 170"/>
-    <path d="M180 262 C162 252 150 236 155 218 C176 222 186 246 180 262 Z"/>
-    <path d="M180 228 C199 218 211 200 206 182 C185 187 174 210 180 228 Z"/>
-    <path d="M164 138 C150 136 148 120 160 114 C172 108 180 122 172 132"/>
-    <path d="M196 138 C210 136 212 120 200 114 C188 108 180 122 188 132"/>
-    <path d="M180 122 C180 106 194 106 194 120 C194 132 182 134 180 122 Z"/>
-    <path d="M172 124 C170 108 158 110 160 122 C162 132 174 132 172 124 Z"/>
-    <path d="M188 124 C190 108 202 110 200 122 C198 132 186 132 188 124 Z"/>
-    <path d="M176 122 C178 116 184 116 186 122 C184 128 178 128 176 122 Z" fill="#d6336c" stroke="none"/>
+  <g fill="none" stroke="#6c5fc0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 316 C180 272 180 214 180 176"/>
+    <path d="M180 276 C162 266 150 250 155 232 C176 236 186 260 180 276 Z"/>
+    <path d="M180 244 C199 234 211 216 206 198 C185 203 174 226 180 244 Z"/>
+    <path d="M162 140 C148 138 146 120 158 114 C170 108 178 122 170 132"/>
+    <path d="M198 140 C212 138 214 120 202 114 C190 108 182 122 190 132"/>
+    <path d="M180 122 C180 104 196 104 196 120 C196 132 182 134 180 122 Z"/>
+    <path d="M170 124 C168 106 154 108 156 122 C158 134 172 134 170 124 Z"/>
+    <path d="M190 124 C192 106 206 108 204 122 C202 134 188 134 190 124 Z"/>
+    <path d="M178 120 C180 114 186 114 188 120 C186 126 180 126 178 120 Z" fill="#6c5fc0" stroke="none"/>
   </g>
-  <path d="M60 450 V210 C60 132 114 70 180 70 C246 70 300 132 300 210 V450" fill="none" stroke="#d6336c" stroke-width="1.5" opacity="0.35"/>
+  <path d="M60 450 V210 C60 132 114 70 180 70 C246 70 300 132 300 210 V450" fill="none" stroke="#6c5fc0" stroke-width="1.5" opacity="0.35"/>
 </svg>

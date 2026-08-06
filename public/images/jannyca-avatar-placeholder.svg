@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <title>Jannyca Ilaida avatar placeholder</title>
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="rgba(6, 182, 212, 0.28)"/>
+      <stop offset="1" stop-color="rgba(6, 182, 212, 0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="#0f172a"/>
+  <rect width="400" height="500" fill="url(#glow)"/>
+  <circle cx="200" cy="210" r="128" fill="#1e293b"/>
+  <circle cx="200" cy="210" r="128" fill="url(#face)" opacity="0.2"/>
+  <circle cx="200" cy="210" r="128" fill="none" stroke="url(#face)" stroke-width="5"/>
+  <circle cx="200" cy="210" r="128" fill="none" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" stroke-dasharray="4 10"/>
+  <text x="200" y="250" font-family="Jost, Segoe UI, sans-serif" font-size="132" font-weight="600" fill="#f8fafc" text-anchor="middle">JI</text>
+  <text x="200" y="452" font-family="Nunito, Segoe UI, sans-serif" font-size="24" font-weight="600" fill="#94a3b8" text-anchor="middle">Portrait placeholder</text>
+  <text x="200" y="482" font-family="Nunito, Segoe UI, sans-serif" font-size="18" font-weight="400" fill="#94a3b8" text-anchor="middle">Jannyca's photo will go here</text>
+</svg>
