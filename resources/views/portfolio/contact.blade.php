@@ -42,15 +42,7 @@
                 </ul>
 
                 <div class="contact__map reveal" style="margin-top: 24px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2291.3270436172297!2d121.04742167864788!3d14.466695472741948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf007d0035bf%3A0x8c8e821fc4aafb41!2sBlk%208%20Lot%2038%20Linden%20St!5e1!3m2!1sen!2sph!4v1785987013700!5m2!1sen!2sph"
-                        width="100%"
-                        height="260"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        title="Map of Jannyca's location in Sucat, Muntinlupa City">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4582.665577414929!2d121.04725103354404!3d14.466138639641809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cfbb2eb7668f%3A0xcd96a177404d9ee4!2sMarina%20Heights%20Swimming%20Pool%2C%20Muntinlupa%2C%20Metro%20Manila!5e1!3m2!1sen!2sph!4v1785994803034!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div>
 
